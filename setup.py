@@ -12,11 +12,11 @@ with open("README.rst", "r") as fh:
 setuptools.setup(
     name="apk-launcher",
     python_requires='>=3',
-    version="0.0.1",
+    version="0.0.3",
     author="ksg97031",
     author_email="ksg97031@gmail.com",
     description="Easy to handle your apk",
-    install_requires=['androguard', 'adb', 'click',],
+    install_requires=['androguard', 'adb', 'click','rsa'],
     long_description=long_description,
     long_description_content_type="text/x-rst",
     url="https://github.com/ksg97031/apk-launcher",
