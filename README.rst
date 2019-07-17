@@ -4,6 +4,6 @@ apk-launcher
 
 .. code:: sh
 
-  $ pip install apk-launcher
+  $ pip install apk-launcher --global-option=build_ext --global-option="-L/usr/local/opt/openssl/lib" --global-option="-I/usr/local/opt/openssl/include"
   $ apk-launcher {APK_PATH}
 
