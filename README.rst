@@ -22,9 +22,9 @@ How to use
 
   $ apk-launcher {YOUR_APK_PATH}
 
-'''''''''''''
+''''''''''''''''''''''
 Option: no logcat
-'''''''''''''
+''''''''''''''''''''''
 .. code:: sh
 
   $ apk-launcher {YOUR_APK_PATH} --nolog  
