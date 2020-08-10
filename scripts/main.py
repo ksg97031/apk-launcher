@@ -74,7 +74,6 @@ def run(apk_path, nolog):
         adb.Logcat('clean')
         time.sleep(1) # wait for activity
         pid = adb.Shell("ps -ef | grep %s | tr -s [:space:] ' ' | cut -d' ' -f2" % apk.package)
-        print("ps -ef | grep %s | tr -s [:space:] ' ' | cut -d' ' -f2" % apk.package)
         pid = pid.strip()
 
         print(f"\n\n[ Logcat - {apk.package}({pid}) ]\n") # recommand to use pidcat
