@@ -21,7 +21,7 @@ setuptools.setup(
     version="1.0.0",
     author="ksg97031",
     author_email="ksg97031@gmail.com",
-    description="Easy to handle some apks",
+    description="Easy to handle your apk",
     install_requires=['androguard', 'adb', 'click', 'rsa'],
     long_description=long_description,
     long_description_content_type="text/x-rst",
